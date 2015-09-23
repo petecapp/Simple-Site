@@ -1,5 +1,6 @@
 module.exports = function(grunt) {
     require('jit-grunt')(grunt);
+    grunt.loadNpmTasks('grunt-postcss');
     grunt.initConfig({
         less: {
           development: {
@@ -13,15 +14,29 @@ module.exports = function(grunt) {
             }
           }
         },
+        postcss: {
+            options: {
+                map: true,
+                processors: [
+                    require('autoprefixer')({
+                        browsers: ['last 2 versions']
+                    })
+                ]
+            },
+            dist: {
+                src: 'static/css/styles.css'
+            }
+        },
         watch: {
           styles: {
             files: ['static/less/*.less'], // which files to watch
-            tasks: ['less'],
+            tasks: ['less', 'postcss:dist'],
             options: {
               nospawn: true
             }
           }
         }
     });
-    grunt.registerTask('default', ['less', 'watch']);
+
+    grunt.registerTask('default', ['less', 'postcss:dist', 'watch']);
 };
