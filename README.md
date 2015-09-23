@@ -4,11 +4,14 @@ This site comes with Bootstrap, jQuery, Less and Modernizer. Grunt allows for so
 ##Usage
 
 ###Required Package Managers
-```lisp
-####npm
-$ npm install
 
+####npm
+```lisp
+$ npm install
+```
 ####Bower
+
+```lisp
 $ bower install
 ```
 ###Packages
