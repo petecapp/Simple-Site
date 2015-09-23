@@ -1,8 +1,9 @@
 #Simple-Site
+This site comes with Bootstrap, jQuery, Less and Modernizer. Grunt allows for some automation: Watching/Compiling of Less files and autoprefixing of style properties.
 
-##Using
+##Usage
 
-###Machine Requirements
+###Required Package Managers
 ```lisp
 $ npm install
 $ bower install
