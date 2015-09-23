@@ -21,7 +21,7 @@ $ npm install -g grunt-cli --save-dev
 ```
 
 ###Packages
-###Grunt Packages
+####Grunt Packages
 ```lisp
 $ npm install jit-grunt --save-dev
 $ npm install grunt-contrib-less --save-dev
@@ -30,7 +30,7 @@ $ npm install autoprefixer --save-dev
 $ npm install grunt-postcss --save-dev
 ```
 
-###Bower Packages
+####Bower Packages
 ```lisp
 $ bower install bootstrap --save
 $ bower install less.js --save
