@@ -16,7 +16,9 @@ npm requires [nodejs.org](https://www.nodejs.org)nodejs.org
 $ bower install
 ```
 ####Grunt CLI
+```lisp
 $ npm install -g grunt-cli --save-dev
+```
 
 ###Packages
 ```lisp
