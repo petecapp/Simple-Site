@@ -5,7 +5,7 @@ This site comes with Bootstrap, jQuery, Less and Modernizer. Grunt allows for so
 ##Required Package Managers
 
 ####npm
-npm requires [nodejs.org](https://www.nodejs.org)nodejs.org
+npm requires [nodejs.org](https://www.nodejs.org)
 ```lisp
 $ npm install
 ```
