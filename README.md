@@ -8,15 +8,18 @@ This site comes with Bootstrap, jQuery, Less and Modernizer. Grunt allows for so
 ####npm
 ```lisp
 $ npm install
+npm requires [nodejs.org](https://www.nodejs.org)nodejs.org
 ```
 ####Bower
 
 ```lisp
 $ bower install
 ```
+####Grunt CLI
+$ npm install -g grunt-cli --save-dev
+
 ###Packages
 ```lisp
-$ npm install -g grunt-cli --save-dev
 $ npm install jit-grunt --save-dev
 $ npm install grunt-contrib-less --save-dev
 $ npm install grunt-contrib-watch --save-dev
