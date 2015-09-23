@@ -9,8 +9,8 @@ $ bower install
 ```
 ###Packages
 ```lisp
-$ npm install -g grunt-cli
-$ bower install grunt-contrib-less
-$ bower install grunt-contrib-watch
-$ npm install postcss
+$ npm install -g grunt-cli --save-dev
+$ npm install grunt-contrib-less --save-dev
+$ npm install grunt-contrib-watch --save-dev
+$ npm install grunt-postcss --save-dev
 ```
